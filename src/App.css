@@ -1,0 +1,105 @@
+.con{
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: aqua; */
+}
+
+.leftCon{
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .mainImg{
+  width: 20rem;
+  height: 20rem;
+ }
+.rightCon{
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* gap: 1rem; */
+}
+
+.rightTopCon{
+  width: 100%;
+  min-height: 30vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(87, 84, 84);
+  gap: 1rem;
+  justify-content: space-between;
+}
+.priceRange{
+  color: rgb(10, 189, 174);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.sizeCon{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+
+}
+.sizebox{
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.rightMiddleCon{
+  height: 47vh;
+border-bottom: 1px solid rgb(72, 71, 71);
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+gap: 2rem;
+}
+.radioCon{
+  position: relative;
+  top: 1.5rem;
+  display: flex;
+  width: 20rem;
+  height: 3rem;
+  gap: .5rem;
+}
+.amtCon{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+
+}
+
+.rightBottomCon{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+.rightBottomCon>button{
+  width: 12rem;
+  height: 2.5rem;
+  border-style: none;
+  cursor: pointer;
+}
